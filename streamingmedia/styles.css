@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #020659;
+    margin: 0 auto;
+    width: 80%;
+}
+main {
+    background-color: white;
+}
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+h3 {
+    color: #590242;
+}
+h1 {
+    font-size: 1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
+}
+footer p {
+    font-size: .75em;
+}
+nav {
+    background-color: #020873;
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+}
+li {
+    list-style: none;
+}
+#trending-songs {
+    color: #590242;
+}
+#trending {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.scroll {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.scroll section {
+    margin: 10px;
+    position: relative;
+}
+.scroll div {
+    position: absolute;
+    top: 251px;
+    background-color: rgba(255,255,255,.75);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+    color: #590242;
+}
+dl {
+    display: flex;
+}
+dt {
+    padding-right: 5px;
+}
+audio {
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
+@media screen and (min-width: 375px) {
+
+}
+@media screen and (min-width: 834px) {
+}
+#nav-menu {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    background-color: #030A8C;
+    width: 80%;
+}
+#intro {
+    position: absolute;
+    height: 100px;
+    margin-top: 40px;
+    padding-top: 10px;
+    background-color: #2104D9;
+    width: 80%;
+}
+header {
+    height: 80px;
+}
